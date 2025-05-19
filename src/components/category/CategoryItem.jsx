@@ -23,5 +23,4 @@ export function CategoryItem({ strCategory, strCategoryThumb, strCategoryDescrip
             </div>
         </div>
     )
-}
-fhfjjfdk
+};
