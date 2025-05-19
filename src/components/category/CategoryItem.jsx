@@ -3,7 +3,7 @@ import Link from "next/link";
 export function CategoryItem({ strCategory, strCategoryThumb, strCategoryDescription }) {
     return (
         <div className="rounded-lg overflow-hidden shadow-md bg-white">
-            <div className="relative">
+            <div className="relative"> 
                 <img
                     src={strCategoryThumb}
                     alt={strCategory}
