@@ -7,7 +7,7 @@ export function Footer() {
           href="#!"
           className="text-gray-200 hover^text-white transition-colors duration-200"
           >
-            Repository
+            Коротенко Анастасия
         </a>
       </div>
     </footer>
