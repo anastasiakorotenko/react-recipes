@@ -1,6 +1,6 @@
 import { API_URL } from './config';
 
-export const getMealByID = async (mealID) => {
+export const getMealById = async (mealID) => {
     const response = await fetch(`${API_URL}lookup.php?i=${mealID}`); 
     return await response.json();
 };

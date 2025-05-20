@@ -2,7 +2,7 @@ import Link from "next/link"
 
 export function Header(){
     return (
-        <nav className="bg-teal-600 text-white">
+        <nav className="bg-purple-200">
             <div className="container mx-auto px-4">
                 <div className="flex justify-between items-center h-16">
                     <Link href="/" className="text-xl font-bold"> SPA React Project</Link>

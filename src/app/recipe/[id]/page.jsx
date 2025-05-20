@@ -1,7 +1,7 @@
 import { getMealById } from '../../lib/api';
 import Link from 'next/link';
 
-export default async function RecipePage({ params }) {
+export default async function RecipePage({params}) {
   const mealData = await getMealById(params.id)
   const meal = mealData?.meals?.[0]
 
