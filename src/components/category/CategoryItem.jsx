@@ -5,7 +5,7 @@ export function CategoryItem({ strCategory, strCategoryThumb, strCategoryDescrip
         <div className="rounded-lg overflow-hidden shadow-md bg-white">
             <div className="relative"> 
                 <img
-                    src={strCategoryThumb}
+                    src={strCategoryThumb} 
                     alt={strCategory}
                     className="w-full h-48 object-cover"
                 />
